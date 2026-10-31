@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lacerda &amp; Garcez</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Lacerda &amp; Garcez Sociedade de Advogados. Advocacia Trabalhista, Civil, de Família e do Consumidor em Resende (RJ) e Queluz (SP).">
+<meta name="theme-color" content="#0B2A31">
+<meta property="og:title" content="Lacerda &amp; Garcez · Sociedade de Advogados">
+<meta property="og:description" content="Advocacia Trabalhista, Civil, de Família e do Consumidor em Resende (RJ) e Queluz (SP).">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Crect%20width%3D%27100%27%20height%3D%27100%27%20fill%3D%27%230B2A31%27/%3E%3Cg%20fill%3D%27none%27%20stroke-width%3D%276%27%3E%3Cpath%20stroke%3D%27%23F4F1EA%27%20d%3D%27M88.81%2059.68A40%2040%200%201%201%2080.64%2024.29%27/%3E%3Cpath%20stroke%3D%27%23A8834E%27%20d%3D%27M40%2030V62H90%27/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "name": "Lacerda & Garcez Sociedade de Advogados", "email": "contato@lacerdaegarcez.com.br", "areaServed": ["Resende, RJ", "Queluz, SP"], "knowsAbout": ["Direito do Trabalho", "Direito Civil", "Direito de Família", "Direito do Consumidor"], "department": [{"@type": "LegalService", "name": "Lacerda & Garcez · Campos Elíseos", "telephone": "+5524988033310", "address": {"@type": "PostalAddress", "streetAddress": "R. Albino de Almeida, 159, Sl 1", "addressLocality": "Resende", "addressRegion": "RJ", "addressCountry": "BR"}}, {"@type": "LegalService", "name": "Lacerda & Garcez · Mirante da Serra", "telephone": "+5524988232093", "address": {"@type": "PostalAddress", "streetAddress": "Rua do Amor, 164, Sala 01", "addressLocality": "Resende", "addressRegion": "RJ", "addressCountry": "BR"}}, {"@type": "LegalService", "name": "Lacerda & Garcez · Queluz", "telephone": "+5524988032141", "address": {"@type": "PostalAddress", "streetAddress": "Rua Ciriano de Moraes Borges, 18", "addressLocality": "Queluz", "addressRegion": "SP", "addressCountry": "BR"}}]}</script>
+<style>
+/* Layout: sequência de faixas alternando petróleo (marca, ação) e marfim (leitura).
+   Um traço, dois nomes: o símbolo se desenha na abertura e se fecha de novo na seção Escritório. */
+:root{
+  --petroleo:#0F3B45;
+  --petroleo-esc:#0B2A31;
+  --bronze:#A8834E;
+  --bronze-esc:#7D6036;
+  --marfim:#F4F1EA;
+  --areia:#E4DED2;
+  --grafite:#2B2F31;
+  --branco:#FFFFFF;
+  --bordo:#7A2E2E;
+
+  --fg:var(--grafite);
+  --fg-soft:#464c4e;
+  --bg:var(--marfim);
+  --on-dark:var(--marfim);
+  --on-dark-soft:rgba(228,222,210,.84);
+  --line-light:rgba(15,59,69,.16);
+  --line-dark:rgba(228,222,210,.16);
+
+  --display:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --caps:'Cinzel',Georgia,'Times New Roman',serif;
+  --text:'Source Serif 4',Georgia,'Times New Roman',serif;
+
+  --gutter:max(clamp(16px,4.5vw,56px),env(safe-area-inset-left,0px));
+  --gutter-r:max(clamp(16px,4.5vw,56px),env(safe-area-inset-right,0px));
+  --sec:clamp(4.5rem,9vw,8.5rem);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--text);font-size:1.0625rem;line-height:1.65;font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
+main{overflow-x:clip}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4,p,ul,ol,figure,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
+::selection{background:var(--bronze);color:var(--petroleo-esc)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:fixed;left:16px;top:-80px;z-index:100;background:var(--marfim);color:var(--petroleo);padding:.7rem 1rem;font-family:var(--caps);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:top .2s}
+.skip:focus{top:calc(12px + env(safe-area-inset-top,0px))}
+
+.wrap{width:100%;max-width:1300px;margin-inline:auto;padding-left:var(--gutter);padding-right:var(--gutter-r)}
+.sec{position:relative;padding-block:var(--sec);scroll-margin-top:60px}
+.sec.dark{background:var(--petroleo);color:var(--on-dark)}
+.sec.darker{background:var(--petroleo-esc);color:var(--on-dark)}
+.sec.white{background:var(--branco)}
+
+/* ---------- tipografia ---------- */
+.eyebrow{display:inline-flex;align-items:center;gap:.9rem;font-family:var(--caps);font-weight:500;font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--bronze-esc)}
+.eyebrow::before{content:"";width:2.2rem;height:1px;background:currentColor;opacity:.7}
+.dark .eyebrow,.darker .eyebrow{color:var(--areia)}
+.dark .eyebrow::before,.darker .eyebrow::before{background:var(--bronze);opacity:1}
+.h2{font-family:var(--display);font-weight:500;font-size:clamp(2.15rem,1.2rem + 3vw,3.7rem);line-height:1.08;letter-spacing:-.005em;color:var(--petroleo);text-wrap:balance}
+.dark .h2,.darker .h2{color:var(--marfim)}
+.h2 em,.h1 em{font-style:italic;color:var(--bronze)}
+.light .h2 em,.white .h2 em{color:var(--bronze-esc)}
+.lead{font-size:clamp(1.12rem,1rem + .5vw,1.3rem);line-height:1.6;color:var(--fg-soft);text-wrap:pretty;max-width:60ch}
+.dark .lead,.darker .lead{color:var(--on-dark-soft)}
+.sec-head{display:grid;gap:1.4rem;margin-bottom:clamp(2.5rem,5vw,4.5rem);max-width:52rem}
+
+/* ---------- botões ---------- */
+.btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:.8rem;padding:1rem 1.6rem;border:1px solid transparent;font-family:var(--caps);font-weight:500;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;line-height:1.2;transition:color .4s var(--ease),border-color .4s var(--ease),transform .4s var(--ease);will-change:transform}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;transform:translateX(-101%);transition:transform .55s var(--ease)}
+.btn:hover::before,.btn:focus-visible::before{transform:none}
+.btn svg{width:1.25rem;height:1.25rem;flex:none;transition:transform .4s var(--ease)}
+.btn:hover svg.arr{transform:translateX(5px)}
+.btn-light{background:var(--marfim);color:var(--petroleo)}
+.btn-light::before{background:var(--areia)}
+.btn-line{border-color:rgba(228,222,210,.45);color:var(--marfim)}
+.btn-line::before{background:rgba(228,222,210,.12)}
+.btn-line:hover{border-color:var(--bronze)}
+.btn-dark{background:var(--petroleo);color:var(--marfim)}
+.btn-dark::before{background:var(--petroleo-esc)}
+.btn-ghost{border-color:var(--line-light);color:var(--petroleo)}
+.btn-ghost::before{background:rgba(15,59,69,.07)}
+.btn-ghost:hover{border-color:var(--bronze)}
+.btn-sm{padding:.75rem 1.1rem;font-size:.72rem}
+
+/* ---------- logotipo (wordmark em texto vivo) ---------- */
+.logo{display:inline-flex;align-items:center;gap:.85em;text-decoration:none;color:var(--marfim);font-size:var(--logo,16px);line-height:1}
+.logo .sym{width:3.2em;height:3.2em;flex:none;color:var(--marfim)}
+.logo-rule{width:1px;align-self:stretch;margin-block:.15em;background:var(--bronze);opacity:.85}
+.logo-name{display:block;font-family:var(--display);font-weight:500;font-size:2.05em;line-height:1;white-space:nowrap}
+.logo-name i{font-style:normal;color:var(--bronze)}
+.logo-tag{display:block;font-family:var(--caps);font-weight:400;font-size:.5em;letter-spacing:.6em;text-transform:uppercase;margin-top:.7em;white-space:nowrap;margin-right:-.6em}
+.logo.pos{color:var(--petroleo)}
+.logo.pos .sym{color:var(--petroleo)}
+.sym{display:block;overflow:visible}
+.sym .arc{stroke:currentColor}
+.sym .ell{stroke:var(--bronze)}
+
+/* ---------- cabeçalho ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:60;padding-top:env(safe-area-inset-top,0px);transition:background .45s var(--ease),box-shadow .45s var(--ease)}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;height:88px;transition:height .45s var(--ease)}
+.hdr.solid{background:rgba(11,42,49,.93);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(168,131,78,.4)}
+.hdr.solid .hdr-in{height:68px}
+.hdr .logo{--logo:13.5px}
+.nav{display:flex;align-items:center;gap:clamp(1rem,2vw,2.1rem)}
+.nav a:not(.btn){position:relative;font-family:var(--caps);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--on-dark-soft);padding-block:.5rem;transition:color .3s}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:.15rem;height:1px;background:var(--bronze);transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+.nav a:not(.btn):hover,.nav a[aria-current=true]{color:var(--marfim)}
+.nav a:not(.btn):hover::after,.nav a[aria-current=true]::after{transform:scaleX(1)}
+.burger{display:none;width:46px;height:46px;position:relative;margin-right:-8px}
+.burger span{position:absolute;left:11px;right:11px;height:1.5px;background:var(--marfim);transition:transform .45s var(--ease),opacity .3s,top .45s var(--ease)}
+.burger span:nth-child(1){top:17px}.burger span:nth-child(2){top:22.5px}.burger span:nth-child(3){top:28px}
+.menu-open .burger span:nth-child(1){top:22.5px;transform:rotate(45deg)}
+.menu-open .burger span:nth-child(2){opacity:0}
+.menu-open .burger span:nth-child(3){top:22.5px;transform:rotate(-45deg)}
+.progress{position:absolute;left:0;bottom:0;height:2px;width:100%;background:var(--bronze);transform:scaleX(var(--prog,0));transform-origin:left}
+
+.mnav{position:fixed;inset:0;z-index:55;background:var(--petroleo-esc);padding:calc(110px + env(safe-area-inset-top,0px)) var(--gutter-r) calc(2rem + env(safe-area-inset-bottom,0px)) var(--gutter);display:flex;flex-direction:column;justify-content:space-between;clip-path:circle(0 at calc(100% - 40px) 44px);visibility:hidden;transition:clip-path .7s var(--ease),visibility 0s .7s;overflow-y:auto}
+.menu-open .mnav{clip-path:circle(150% at calc(100% - 40px) 44px);visibility:visible;transition:clip-path .7s var(--ease),visibility 0s}
+.mnav ul{display:grid;gap:.2rem}
+.mnav li a{display:block;font-family:var(--display);font-weight:500;font-size:clamp(2rem,9vw,2.8rem);line-height:1.2;color:var(--marfim);text-decoration:none;padding-block:.25rem;border-bottom:1px solid var(--line-dark);opacity:0;transform:translateY(18px);transition:opacity .5s,transform .6s var(--ease)}
+.menu-open .mnav li a{opacity:1;transform:none;transition-delay:calc(.25s + var(--i)*.06s)}
+.mnav-foot{display:grid;gap:.4rem;color:var(--on-dark-soft);font-size:.95rem;margin-top:2rem}
+
+/* ---------- hero ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:var(--petroleo-esc);color:var(--on-dark);padding-top:calc(88px + clamp(2.5rem,6vw,5.5rem))}
+.hero-pat{position:absolute;inset:-140px;z-index:-1;opacity:.13;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140' viewBox='0 0 140 140'%3E%3Cg fill='none' stroke='%23A8834E' stroke-width='6'%3E%3Cg transform='translate(10 10) scale(.5)'%3E%3Cpath d='M88.81 59.68A40 40 0 1 1 80.64 24.29'/%3E%3Cpath d='M40 30V62H92'/%3E%3C/g%3E%3Cg transform='translate(80 80) scale(.5)'%3E%3Cpath d='M88.81 59.68A40 40 0 1 1 80.64 24.29'/%3E%3Cpath d='M40 30V62H92'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");-webkit-mask-image:linear-gradient(100deg,transparent 18%,#000 75%);mask-image:linear-gradient(100deg,transparent 18%,#000 75%);animation:drift 90s linear infinite}
+.hero-glow{position:absolute;z-index:-1;right:-10%;top:5%;width:70vw;max-width:900px;aspect-ratio:1;background:radial-gradient(closest-side,rgba(15,59,69,.9),transparent);}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(2rem,5vw,5rem);align-items:center;padding-bottom:clamp(3rem,6vw,5.5rem)}
+.hero-copy{display:grid;gap:clamp(1.4rem,2.6vw,2.2rem);justify-items:start}
+.h1{font-family:var(--display);font-weight:500;font-size:clamp(2.7rem,1rem + 6vw,5.6rem);line-height:1.02;letter-spacing:-.012em;color:var(--marfim)}
+.ln{display:block;overflow:hidden;padding:.06em 0 .14em}
+.ln>span{display:inline-block}
+.hero .lead{max-width:46ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.9rem}
+.hero-where{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;font-family:var(--caps);font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;color:var(--areia)}
+.hero-where span{display:inline-flex;align-items:center;gap:.7rem}
+.hero-where span::before{content:"";width:5px;height:5px;background:var(--bronze);transform:rotate(45deg)}
+.hero-art{position:relative;display:grid;place-items:center}
+.hero-sym{width:min(100%,500px);color:var(--marfim);will-change:transform;transition:transform .8s var(--ease)}
+.hero-sym .sym{width:100%;height:auto}
+.hero-art::after{content:"";position:absolute;inset:8%;z-index:-1;border-radius:50%;background:radial-gradient(closest-side,rgba(168,131,78,.14),transparent)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-dark)}
+.stat{padding:1.5rem 1.2rem 1.7rem 0;display:grid;gap:.2rem;position:relative}
+.stat+.stat{padding-left:1.4rem;border-left:1px solid var(--line-dark)}
+.stat b{font-family:var(--display);font-weight:500;font-size:clamp(2.2rem,4vw,3.4rem);line-height:1;color:var(--marfim);font-variant-numeric:tabular-nums}
+.stat span{font-family:var(--caps);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--on-dark-soft)}
+.ticker{background:var(--petroleo);border-block:1px solid rgba(168,131,78,.35);overflow:hidden;white-space:nowrap}
+.ticker-track{display:inline-flex;animation:marq 38s linear infinite;will-change:transform}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-set{display:inline-flex;align-items:center}
+.ticker-set span{display:inline-flex;align-items:center;gap:2.2rem;padding:1.15rem 2.2rem 1.15rem 0;font-family:var(--display);font-weight:500;font-size:clamp(1.4rem,2.4vw,2rem);color:var(--marfim)}
+.ticker-set span::after{content:"";width:7px;height:7px;background:var(--bronze);transform:rotate(45deg)}
+.ticker-set span:nth-child(even){font-style:italic;color:var(--areia)}
+
+/* ---------- escritório ---------- */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(2.5rem,6vw,7rem);align-items:center}
+.about-copy{display:grid;gap:1.6rem;justify-items:start}
+.about-copy p+p{margin-top:-.4rem}
+.values{display:grid;gap:0;margin-top:.8rem;width:100%;border-top:1px solid var(--line-light)}
+.value{display:grid;grid-template-columns:3rem 1fr;gap:1rem;padding:1.15rem 0;border-bottom:1px solid var(--line-light);align-items:start}
+.value svg{width:1.7rem;height:1.7rem;color:var(--petroleo);margin-top:.2rem;transition:transform .5s var(--ease),color .3s}
+.value:hover svg{transform:translateY(-3px);color:var(--bronze-esc)}
+.value h3{font-family:var(--display);font-weight:600;font-size:1.55rem;line-height:1.2;color:var(--petroleo)}
+.value p{color:var(--fg-soft);font-size:1rem}
+.mark-panel{position:relative;background:var(--petroleo-esc);aspect-ratio:1;display:grid;place-items:center;color:var(--marfim);isolation:isolate;overflow:hidden}
+.mark-panel::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.1;background-image:linear-gradient(var(--areia) 1px,transparent 1px),linear-gradient(90deg,var(--areia) 1px,transparent 1px);background-size:10% 10%;background-position:5% 5%}
+.mark-panel .sym{width:74%;height:auto}
+.mark-lab{position:absolute;font-family:var(--display);font-style:italic;font-size:1.15rem;color:var(--areia);display:flex;align-items:center;gap:.6rem}
+.mark-lab b{font-family:var(--display);font-style:normal;font-weight:500;font-size:2rem;line-height:1;color:var(--bronze)}
+.mark-lab.l{left:7%;top:10%}
+.mark-lab.g{right:7%;bottom:9%;flex-direction:row-reverse}
+.mark-lab.g b{color:var(--marfim)}
+.mark-cap{position:absolute;left:7%;right:7%;bottom:6%;display:none}
+.about-note{display:block;margin-top:.9rem;font-size:.95rem;color:var(--fg-soft);font-style:italic;max-width:46ch}
+
+/* ---------- áreas ---------- */
+.areas{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:clamp(2rem,5vw,5.5rem);align-items:start}
+.tablist{display:grid;border-top:1px solid var(--line-dark);position:sticky;top:100px}
+.tab{position:relative;display:grid;grid-template-columns:2.6rem 1fr auto;gap:1rem;align-items:center;text-align:left;padding:1.35rem .4rem 1.35rem 0;border-bottom:1px solid var(--line-dark);color:var(--on-dark-soft);transition:color .4s,padding .5s var(--ease),background .4s}
+.tab::before{content:"";position:absolute;left:0;bottom:-1px;height:1px;width:100%;background:var(--bronze);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.tab svg{width:1.8rem;height:1.8rem;transition:color .3s}
+.tab .t{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,1.2rem + 1.4vw,2.35rem);line-height:1.1;color:inherit}
+.tab small{display:block;font-family:var(--text);font-size:.92rem;line-height:1.4;margin-top:.25rem;opacity:.85}
+.tab .arr{width:1.3rem;height:1.3rem;opacity:0;transform:translateX(-10px);transition:opacity .4s,transform .5s var(--ease);color:var(--bronze)}
+.tab:hover{color:var(--marfim)}
+.tab[aria-selected=true]{color:var(--marfim);padding-left:1rem;background:linear-gradient(90deg,rgba(168,131,78,.12),transparent)}
+.tab[aria-selected=true]::before{transform:scaleX(1)}
+.tab[aria-selected=true] svg{color:var(--bronze)}
+.tab[aria-selected=true] .arr,.tab:hover .arr{opacity:1;transform:none}
+.panel{position:relative;padding:clamp(1.6rem,3.5vw,3.2rem);background:rgba(11,42,49,.55);border:1px solid var(--line-dark);display:grid;gap:1.7rem;animation:panelIn .7s var(--ease)}
+.panel[hidden]{display:none}
+.panel::before,.panel::after{content:"";position:absolute;width:38px;height:38px;border:1.5px solid var(--bronze);pointer-events:none}
+.panel::before{left:-1px;top:-1px;border-right:0;border-bottom:0}
+.panel::after{right:-1px;bottom:-1px;border-left:0;border-top:0}
+.panel h3{font-family:var(--display);font-weight:500;font-size:clamp(2.1rem,1.3rem + 2.4vw,3.2rem);line-height:1.05;color:var(--marfim)}
+.panel .lead{font-size:1.12rem}
+.label{font-family:var(--caps);font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--areia);display:flex;align-items:center;gap:.8rem}
+.label::after{content:"";flex:1;height:1px;background:var(--line-dark)}
+.chips{display:grid;grid-template-columns:1fr 1fr;gap:.2rem 1.8rem}
+.chips li{position:relative;padding:.55rem 0 .55rem 1.5rem;border-bottom:1px solid rgba(228,222,210,.09);font-size:1rem;line-height:1.45;color:var(--on-dark-soft);transition:color .3s,padding .4s var(--ease)}
+.chips li::before{content:"";position:absolute;left:0;top:1.05rem;width:.55rem;height:1px;background:var(--bronze);transition:width .4s var(--ease)}
+.chips li:hover{color:var(--marfim);padding-left:1.9rem}
+.chips li:hover::before{width:.95rem}
+.panel-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem}
+.panel-foot p{font-size:.88rem;color:var(--on-dark-soft);max-width:44ch;font-style:italic}
+
+/* acordeão (reuso: áreas e dúvidas) */
+.acc{display:grid;border-top:1px solid var(--line-dark)}
+.acc-item{border-bottom:1px solid var(--line-dark)}
+.acc-btn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:1.4rem;text-align:left;padding:1.1rem 0;font-family:var(--display);font-weight:500;font-size:1.3rem;line-height:1.25;color:var(--marfim);transition:color .3s}
+.acc-btn:hover{color:var(--areia)}
+.acc-btn svg{width:1.3rem;height:1.3rem;flex:none;color:var(--bronze);transition:transform .5s var(--ease)}
+.acc-btn[aria-expanded=true] svg{transform:rotate(135deg)}
+.acc-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .55s var(--ease)}
+.acc-item.open .acc-body{grid-template-rows:1fr}
+.acc-body>div{overflow:hidden}
+.acc-body p{padding:0 2.6rem 1.3rem 0;font-size:1rem;line-height:1.65;color:var(--on-dark-soft);max-width:62ch}
+.light .acc,.light .acc-item{border-color:var(--line-light)}
+.light .acc-btn{color:var(--petroleo);font-size:clamp(1.35rem,1.1rem + .8vw,1.75rem)}
+.light .acc-btn:hover{color:var(--bronze-esc)}
+.light .acc-btn svg{color:var(--bronze-esc)}
+.light .acc-body p{color:var(--fg-soft);font-size:1.06rem}
+
+/* ---------- sócios ---------- */
+.partners{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.photo{position:relative;aspect-ratio:16/9;max-width:100%;background:var(--petroleo-esc)}
+.photo::before,.photo::after{content:"";position:absolute;z-index:3;width:clamp(36px,6vw,64px);height:clamp(36px,6vw,64px);border:2px solid var(--bronze);pointer-events:none}
+.photo::before{left:-14px;top:-14px;border-right:0;border-bottom:0}
+.photo::after{right:-14px;bottom:-14px;border-left:0;border-top:0}
+.photo-in{position:absolute;inset:0;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.86) contrast(1.02);transition:transform 1.6s var(--ease)}
+.photo:hover img{transform:scale(1.035)}
+.photo-in::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(11,42,49,.55));pointer-events:none}
+.dim{position:absolute;z-index:2;top:0;bottom:0;width:50%;background:rgba(11,42,49,.62);opacity:0;transition:opacity .6s var(--ease);pointer-events:none}
+.dim-a{left:0}.dim-b{right:0}
+.photo[data-focus=a] .dim-b,.photo[data-focus=b] .dim-a{opacity:1}
+.who{display:grid;gap:1.2rem}
+.partner{position:relative;padding:1.7rem 1.6rem 1.7rem 1.8rem;background:var(--branco);border:1px solid var(--line-light);display:grid;gap:.5rem;transition:transform .6s var(--ease),box-shadow .6s var(--ease),border-color .4s;overflow:hidden;isolation:isolate}
+.partner::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--bronze);transform:scaleY(0);transform-origin:top;transition:transform .6s var(--ease)}
+.partner:hover,.partner:focus-visible,.partner.on{transform:translateX(8px);box-shadow:0 18px 40px -22px rgba(11,42,49,.45);border-color:rgba(168,131,78,.55)}
+.partner:hover::before,.partner:focus-visible::before,.partner.on::before{transform:scaleY(1)}
+.partner h3{font-family:var(--display);font-weight:600;font-size:clamp(1.55rem,1.1rem + 1vw,2rem);line-height:1.1;color:var(--petroleo)}
+.oab{font-family:var(--caps);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bronze-esc);font-weight:500}
+.partner small{font-size:.92rem;color:var(--fg-soft);font-style:italic}
+.partners-note{margin-top:2.2rem;max-width:58ch;color:var(--fg-soft)}
+
+/* ---------- atendimento ---------- */
+.steps{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:1.6rem;counter-reset:s}
+.steps::before,.steps::after{content:"";position:absolute;left:1.35rem;right:0;top:1.35rem;height:1px;background:var(--line-light)}
+.steps::after{background:var(--bronze);transform-origin:left;transform:scaleX(var(--tl,1))}
+.step{position:relative;display:grid;gap:.8rem;align-content:start;padding-right:1rem}
+.node{position:relative;z-index:1;width:2.7rem;height:2.7rem;display:grid;place-items:center;background:var(--branco);border:1px solid var(--bronze);font-family:var(--display);font-weight:600;font-size:1.3rem;color:var(--petroleo);transition:background .5s var(--ease),color .5s}
+.step:hover .node{background:var(--petroleo);color:var(--marfim)}
+.step h3{font-family:var(--display);font-weight:600;font-size:1.7rem;line-height:1.15;color:var(--petroleo);margin-top:.6rem}
+.step p{color:var(--fg-soft);font-size:1rem}
+.bring{margin-top:clamp(3rem,6vw,5rem);background:var(--marfim);padding:clamp(1.6rem,3.5vw,2.8rem);display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:2rem;align-items:center;position:relative}
+.bring h3{font-family:var(--display);font-weight:500;font-size:clamp(1.8rem,1.2rem + 1.6vw,2.5rem);line-height:1.1;color:var(--petroleo)}
+.bring ul{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem 1.6rem}
+.bring li{display:grid;grid-template-columns:1.8rem 1fr;gap:.8rem;font-size:1rem;line-height:1.45;color:var(--fg)}
+.bring li svg{width:1.6rem;height:1.6rem;color:var(--petroleo)}
+
+/* ---------- unidades ---------- */
+.units{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem}
+.unit{position:relative;isolation:isolate;overflow:hidden;display:grid;gap:1.4rem;align-content:start;padding:clamp(1.6rem,2.6vw,2.4rem);background:var(--petroleo);border:1px solid var(--line-dark);transition:transform .6s var(--ease),border-color .5s}
+.unit:hover{transform:translateY(-6px);border-color:rgba(168,131,78,.6)}
+.spot::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(380px circle at var(--mx,50%) var(--my,0%),rgba(168,131,78,.18),transparent 62%);opacity:0;transition:opacity .5s}
+.spot:hover::after{opacity:1}
+.unit-top{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
+.uf{font-family:var(--display);font-weight:500;font-size:4.4rem;line-height:.8;color:transparent;-webkit-text-stroke:1px rgba(168,131,78,.75);letter-spacing:.02em}
+.tag{display:inline-block;padding:.35rem .7rem;border:1px solid var(--bronze);font-family:var(--caps);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--areia)}
+.unit h3{font-family:var(--display);font-weight:500;font-size:clamp(1.9rem,1.4rem + 1.1vw,2.3rem);line-height:1.1;color:var(--marfim)}
+.addr{display:grid;gap:.1rem;font-style:normal;color:var(--on-dark-soft);font-size:1.02rem;line-height:1.5}
+.addr b{font-weight:600;color:var(--marfim)}
+.phone{display:flex;align-items:center;gap:.8rem;font-family:var(--display);font-weight:600;font-size:1.6rem;color:var(--marfim);font-variant-numeric:lining-nums tabular-nums}
+.phone svg{width:1.3rem;height:1.3rem;color:var(--bronze)}
+.phone small{font-family:var(--caps);font-weight:400;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--on-dark-soft);margin-left:.2rem}
+.unit-act{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-top:.3rem}
+.icon-btn{display:inline-grid;place-items:center;width:2.9rem;height:2.9rem;border:1px solid rgba(228,222,210,.35);color:var(--marfim);text-decoration:none;transition:border-color .3s,background .3s,transform .4s var(--ease)}
+.icon-btn svg{width:1.3rem;height:1.3rem}
+.icon-btn:hover{border-color:var(--bronze);background:rgba(168,131,78,.14);transform:translateY(-2px)}
+.units-note{margin-top:2rem;color:var(--on-dark-soft);font-size:.98rem;max-width:62ch}
+
+/* ---------- dúvidas ---------- */
+.faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,6rem);align-items:start}
+.faq-side{position:sticky;top:110px;display:grid;gap:1.4rem;justify-items:start}
+
+/* ---------- contato ---------- */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(2.5rem,6vw,6rem);align-items:start}
+.contact-copy{display:grid;gap:1.8rem;justify-items:start}
+.ways{display:grid;width:100%;border-top:1px solid var(--line-dark)}
+.way{display:grid;grid-template-columns:2.2rem 1fr auto;gap:1rem;align-items:center;padding:1.1rem 0;border-bottom:1px solid var(--line-dark)}
+.way>svg{width:1.6rem;height:1.6rem;color:var(--bronze)}
+.way .k{font-family:var(--caps);font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:var(--on-dark-soft);display:block}
+.way .v{font-family:var(--display);font-weight:600;font-size:1.45rem;line-height:1.2;color:var(--marfim);overflow-wrap:anywhere;user-select:all}
+.way .v a{text-decoration:none}
+.way .v a:hover{text-decoration:underline;text-decoration-color:var(--bronze);text-underline-offset:4px}
+.pill{display:inline-block;margin-left:.5rem;padding:.2rem .6rem;border:1px solid rgba(228,222,210,.4);font-family:var(--caps);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--areia);vertical-align:middle}
+.form{position:relative;background:var(--marfim);color:var(--fg);padding:clamp(1.6rem,3.5vw,3rem);display:grid;gap:1.4rem}
+.form::before{content:"";position:absolute;left:-1px;top:-1px;width:44px;height:44px;border:2px solid var(--bronze);border-right:0;border-bottom:0;transform:translate(-12px,-12px)}
+.form h3{font-family:var(--display);font-weight:500;font-size:clamp(1.9rem,1.3rem + 1.4vw,2.5rem);line-height:1.1;color:var(--petroleo)}
+.form .sub{color:var(--fg-soft);font-size:1rem;margin-top:-.6rem}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.fld{display:grid;gap:.45rem;min-width:0}
+.fld label{font-family:var(--caps);font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:var(--bronze-esc);font-weight:500}
+.fld input,.fld select,.fld textarea{width:100%;font:inherit;font-size:1.05rem;color:var(--fg);background:var(--branco);border:1px solid var(--line-light);border-bottom:1px solid rgba(15,59,69,.45);border-radius:0;padding:.85rem .9rem;transition:border-color .3s,box-shadow .3s;appearance:none;-webkit-appearance:none}
+.fld select{background-image:linear-gradient(45deg,transparent 50%,var(--petroleo) 50%),linear-gradient(-45deg,transparent 50%,var(--petroleo) 50%);background-position:calc(100% - 1.15rem) 55%,calc(100% - .8rem) 55%;background-size:.4rem .4rem;background-repeat:no-repeat;padding-right:2.4rem}
+.fld textarea{min-height:8.5rem;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--bronze);box-shadow:0 0 0 3px rgba(168,131,78,.25)}
+.fld input[aria-invalid=true],.fld textarea[aria-invalid=true]{border-color:var(--bordo)}
+.err{color:var(--bordo);font-size:.95rem;font-weight:600}
+.privacy{display:flex;gap:.8rem;font-size:.9rem;line-height:1.5;color:var(--fg-soft)}
+.privacy svg{width:1.3rem;height:1.3rem;flex:none;color:var(--petroleo);margin-top:.1rem}
+.form-act{display:flex;flex-wrap:wrap;gap:.8rem}
+
+/* ---------- rodapé ---------- */
+.foot{background:var(--petroleo-esc);color:var(--on-dark);padding-top:clamp(3.5rem,6vw,5.5rem);padding-bottom:calc(5.5rem + env(safe-area-inset-bottom,0px))}
+.fio{position:relative;height:1px;background:linear-gradient(90deg,transparent,rgba(168,131,78,.8) 12%,rgba(168,131,78,.8) 88%,transparent)}
+.fio::after{content:"";position:absolute;left:50%;top:-5px;height:10px;width:1px;background:var(--bronze)}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:2.5rem;padding-block:clamp(2.5rem,5vw,4rem)}
+.foot .logo{--logo:15px}
+.foot h4{font-family:var(--caps);font-weight:500;font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--areia);margin-bottom:1.1rem}
+.foot li{margin-bottom:.55rem}
+.foot a{text-decoration:none;color:var(--on-dark-soft);transition:color .3s}
+.foot a:hover{color:var(--marfim);text-decoration:underline;text-decoration-color:var(--bronze);text-underline-offset:4px}
+.foot p{color:var(--on-dark-soft);font-size:.97rem}
+.foot-about{display:grid;gap:1.3rem;align-content:start;max-width:30ch}
+.legal{border-top:1px solid var(--line-dark);padding-top:1.8rem;display:grid;gap:1rem;font-size:.85rem;line-height:1.6;color:var(--on-dark-soft)}
+.legal p{max-width:100ch;font-size:.85rem}
+.legal-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.8rem 2rem;font-family:var(--caps);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase}
+.legal-row a{color:var(--areia)}
+
+.credit{display:flex;align-items:center;gap:.8rem;font-size:.9rem!important;color:var(--on-dark-soft)}
+.credit .by{display:inline-flex;align-items:center;gap:.7rem;color:var(--marfim);font-weight:600}
+.credit img{height:52px;width:auto;opacity:.95;transition:transform .5s var(--ease)}
+.credit .by:hover img{transform:scale(1.06)}
+.credit .by:hover span{text-decoration:underline;text-decoration-color:var(--bronze);text-underline-offset:4px}
+
+/* ---------- botão flutuante ---------- */
+.fab-wrap{position:fixed;z-index:70;right:calc(clamp(14px,2.4vw,28px) + env(safe-area-inset-right,0px));bottom:calc(clamp(14px,2.4vw,28px) + env(safe-area-inset-bottom,0px));display:grid;justify-items:end;gap:.8rem}
+.fab{position:relative;width:60px;height:60px;border-radius:50%;background:var(--bronze);color:var(--petroleo-esc);display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.55);transition:transform .4s var(--ease)}
+.fab:hover{transform:scale(1.07)}
+.fab svg{width:28px;height:28px;transition:transform .5s var(--ease)}
+.fab[aria-expanded=true] svg{transform:rotate(90deg)}
+.fab::after{content:"";position:absolute;inset:0;border-radius:50%;border:1px solid var(--bronze);animation:ping 3s ease-out infinite;pointer-events:none}
+.fab-pop{width:min(320px,calc(100vw - 32px));background:var(--petroleo-esc);border:1px solid rgba(168,131,78,.6);box-shadow:0 24px 50px -16px rgba(0,0,0,.6);animation:pop .45s var(--ease);transform-origin:bottom right}
+.fab-pop p{padding:1rem 1.2rem .4rem;font-family:var(--caps);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--areia)}
+.fab-pop a{display:grid;gap:.1rem;padding:.8rem 1.2rem;text-decoration:none;color:var(--marfim);border-top:1px solid var(--line-dark);transition:background .3s}
+.fab-pop a:hover{background:rgba(168,131,78,.16)}
+.fab-pop b{font-family:var(--display);font-weight:600;font-size:1.25rem;line-height:1.2}
+.fab-pop span{font-size:.92rem;color:var(--on-dark-soft)}
+.toast{position:fixed;z-index:90;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);background:var(--petroleo);color:var(--marfim);border:1px solid var(--bronze);padding:.8rem 1.3rem;font-size:.95rem;opacity:0;pointer-events:none;transition:opacity .35s,transform .5s var(--ease)}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* ---------- desenho do símbolo ---------- */
+.draw path{stroke-dasharray:1 1;stroke-dashoffset:0}
+.anim .draw path{stroke-dashoffset:1.03}
+.anim .draw .arc{animation:draw 1.8s cubic-bezier(.65,0,.3,1) .35s forwards}
+.anim .draw .ell{animation:draw 1.3s cubic-bezier(.65,0,.3,1) 1.7s forwards}
+.scrub path{stroke-dasharray:1 1}
+
+/* ---------- movimento ---------- */
+.anim .rv:not(.in){opacity:0;transform:translateY(32px)}
+.anim .rv{transition:opacity 1s var(--ease),transform 1.1s var(--ease);transition-delay:var(--d,0s)}
+.anim .rv-l:not(.in){transform:translateX(-36px)}
+.anim .ln>span{transform:translateY(112%);animation:up 1.1s var(--ease) forwards;animation-delay:calc(.45s + var(--i,0)*.14s)}
+.anim .fade-in{opacity:0;animation:fade 1.2s var(--ease) forwards;animation-delay:calc(1s + var(--i,0)*.14s)}
+.anim .photo-in{clip-path:inset(0 100% 0 0);transition:clip-path 1.5s cubic-bezier(.7,0,.2,1)}
+.anim .photo.in .photo-in{clip-path:inset(0)}
+.anim .photo-in img{transform:scale(1.2);transition:transform 2.2s var(--ease)}
+.anim .photo.in .photo-in img{transform:none}
+.anim .steps::after{transition:none}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes up{to{transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes drift{to{transform:translate(140px,140px)}}
+@keyframes marq{to{transform:translateX(-50%)}}
+@keyframes panelIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes ping{0%{transform:scale(1);opacity:.7}80%,100%{transform:scale(1.7);opacity:0}}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+  .hero-pat{animation:none}.fab::after{display:none}
+}
+
+/* ---------- responsivo ---------- */
+@media (max-width:1100px){
+  .nav a:not(.btn){display:none}
+  .burger{display:block}
+  .nav .btn{display:none}
+  .units{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{order:-1;justify-self:start;width:min(46vw,230px)}
+  .hero-sym{width:100%}
+  .hero{padding-top:calc(84px + 1.5rem)}
+  .stats{grid-template-columns:1fr 1fr}
+  .stat:nth-child(3){padding-left:0;border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--line-dark)}
+  .about,.areas,.partners,.faq,.contact,.bring{grid-template-columns:1fr}
+  .mark-panel{max-width:520px}
+  .tablist{position:static;grid-template-columns:1fr 1fr;border-top:0;gap:.6rem}
+  .tab{grid-template-columns:auto 1fr;padding:1rem .9rem;border:1px solid var(--line-dark);gap:.7rem}
+  .tab small,.tab .arr{display:none}
+  .tab[aria-selected=true]{padding-left:.9rem;border-color:var(--bronze)}
+  .tab::before{display:none}
+  .tab .t{font-size:1.4rem}
+  .faq-side{position:static}
+  .steps{grid-template-columns:1fr;gap:0}
+  .steps::before,.steps::after{left:1.35rem;right:auto;top:1.35rem;bottom:1.35rem;width:1px;height:auto}
+  .steps::after{transform-origin:top;transform:scaleY(var(--tl,1))}
+  .step{grid-template-columns:2.7rem 1fr;column-gap:1.2rem;padding:0 0 2rem}
+  .step .node{grid-row:1/3}
+  .step h3{margin-top:0}
+  .partner:hover,.partner.on{transform:none}
+}
+@media (max-width:640px){
+  .units{grid-template-columns:1fr}
+  .chips,.bring ul,.f2{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .hdr .logo{--logo:11.5px}
+  .hdr-in{height:76px}
+  .logo-tag{letter-spacing:.5em}
+  .way{grid-template-columns:2rem 1fr}
+  .way .copy{grid-column:2}
+  .fab{width:54px;height:54px}
+  .photo::before{left:-8px;top:-8px}.photo::after{right:-8px;bottom:-8px}
+}
+@media (max-width:380px){
+  .tablist{grid-template-columns:1fr}
+  .hdr .logo{--logo:10.5px}
+}
+
+</style>
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo " href="#inicio" aria-label="Lacerda & Garcez, Sociedade de Advogados. Ir ao início"><svg class="sym" viewBox="0 0 100 100" aria-hidden="true" focusable="false" fill="none" stroke-width="6" stroke-linejoin="miter"><path class="arc" pathLength="1" d="M88.81 59.68A40 40 0 1 1 80.64 24.29"/><path class="ell" pathLength="1" d="M40 30V62H90"/></svg><span class="logo-rule"></span><span><span class="logo-name">Lacerda <i>&amp;</i> Garcez</span><span class="logo-tag">Sociedade de Advogados</span></span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#escritorio">Escritório</a><a href="#areas">Áreas</a><a href="#socios">Sócios</a><a href="#atendimento">Atendimento</a><a href="#unidades">Unidades</a><a href="#contato">Contato</a>
+      <a class="btn btn-line btn-sm" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>WhatsApp</a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<div class="mnav" id="mnav">
+  <ul>
+    <li><a style="--i:0" href="#escritorio">Escritório</a></li><li><a style="--i:1" href="#areas">Áreas de atuação</a></li>
+    <li><a style="--i:2" href="#socios">Sócios</a></li><li><a style="--i:3" href="#atendimento">Atendimento</a></li>
+    <li><a style="--i:4" href="#unidades">Unidades</a></li><li><a style="--i:5" href="#contato">Contato</a></li>
+  </ul>
+  <div class="mnav-foot"><span>contato@lacerdaegarcez.com.br</span><span>Resende, RJ · Queluz, SP</span></div>
+</div>
+
+<main id="conteudo">
+<section class="hero dark" id="inicio" aria-labelledby="h1">
+  <div class="hero-pat" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow fade-in" style="--i:0">Sociedade de Advogados</p>
+        <h1 class="h1" id="h1"><span class="ln"><span style="--i:0">Direito com rigor.</span></span><span class="ln"><span style="--i:1">Atendimento com <em>clareza</em>.</span></span></h1>
+        <p class="lead fade-in" style="--i:2">Advocacia Trabalhista, Civil, de Família e do Consumidor. Atendemos em Resende (RJ) e em Queluz (SP), pelo WhatsApp ou pessoalmente.</p>
+        <div class="hero-cta fade-in" style="--i:3">
+          <a class="btn btn-light mag" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Falar pelo WhatsApp<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-line mag" href="#areas">Conhecer as áreas</a>
+        </div>
+        <p class="hero-where fade-in" style="--i:4"><span>Resende · RJ</span><span>Queluz · SP</span></p>
+      </div>
+      <div class="hero-art"><div class="hero-sym" id="heroSym" role="img" aria-label="Símbolo do escritório: um G e um L formados por um único traço"><svg class="sym  draw" viewBox="0 0 100 100" aria-hidden="true" focusable="false" fill="none" stroke-width="6" stroke-linejoin="miter"><path class="arc" pathLength="1" d="M88.81 59.68A40 40 0 1 1 80.64 24.29"/><path class="ell" pathLength="1" d="M40 30V62H90"/></svg></div></div>
+    </div>
+    <div class="stats rv" role="list">
+      <div class="stat" role="listitem"><b data-count="3">3</b><span>Unidades de atendimento</span></div>
+      <div class="stat" role="listitem"><b data-count="2">2</b><span>Estados · RJ e SP</span></div>
+      <div class="stat" role="listitem"><b data-count="4">4</b><span>Áreas de atuação</span></div>
+      <div class="stat" role="listitem"><b data-count="2">2</b><span>Sócios</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+  <div class="ticker-set"><span>Trabalhista</span><span>Civil</span><span>Família</span><span>Consumidor</span></div><div class="ticker-set"><span>Trabalhista</span><span>Civil</span><span>Família</span><span>Consumidor</span></div><div class="ticker-set"><span>Trabalhista</span><span>Civil</span><span>Família</span><span>Consumidor</span></div><div class="ticker-set"><span>Trabalhista</span><span>Civil</span><span>Família</span><span>Consumidor</span></div>
+</div></div>
+
+<section class="sec light" id="escritorio" aria-labelledby="t-esc">
+  <div class="wrap about">
+    <div class="about-copy">
+      <p class="eyebrow rv">O escritório</p>
+      <h2 class="h2 rv" id="t-esc" style="--d:.08s">Dois nomes, um mesmo <em>método</em> de trabalhar.</h2>
+      <p class="lead rv" style="--d:.16s">A Lacerda &amp; Garcez é uma sociedade de advogados com atuação nas áreas Trabalhista, Civil, de Família e do Consumidor. Cada caso é analisado com atenção aos prazos e às provas, e explicado em linguagem direta, sem jargão desnecessário.</p>
+      <ul class="values rv" style="--d:.24s">
+        <li class="value"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z M15.5 15.5l5.5 5.5"/></svg><div><h3>Rigor</h3><p>Análise técnica do caso, dos documentos e dos prazos antes de qualquer decisão.</p></div></li>
+        <li class="value"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 2.75h9.5L19 7.25v14H5z M14.5 2.75v4.5H19 M8.5 11.5h7 M8.5 15h7 M8.5 18.5h4"/></svg><div><h3>Clareza</h3><p>Você entende seus direitos, os riscos e os caminhos possíveis, sem promessas de resultado.</p></div></li>
+        <li class="value"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 21.5s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z M12 8.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5z"/></svg><div><h3>Proximidade</h3><p>Três unidades e atendimento por WhatsApp, em Resende e em Queluz.</p></div></li>
+      </ul>
+    </div>
+    <figure class="rv" style="--d:.15s">
+      <div class="mark-panel" id="markPanel">
+        <svg class="sym scrub" viewBox="0 0 100 100" aria-hidden="true" focusable="false" fill="none" stroke-width="6" stroke-linejoin="miter"><path class="arc" id="mArc" pathLength="1" d="M88.81 59.68A40 40 0 1 1 80.64 24.29"/><path class="ell" id="mEll" pathLength="1" d="M40 30V62H90"/></svg>
+        <span class="mark-lab l"><b>L</b>Lacerda</span><span class="mark-lab g"><b>G</b>Garcez</span>
+      </div>
+      <figcaption class="about-note">O símbolo do escritório nasce de um só traço: a base do L se prolonga até fechar o G. A sociedade é a junção dos dois nomes.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="sec dark" id="areas" aria-labelledby="t-areas">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow rv">Áreas de atuação</p>
+      <h2 class="h2 rv" id="t-areas" style="--d:.08s">Quatro áreas, tratadas com <em>profundidade</em>.</h2>
+      <p class="lead rv" style="--d:.16s">Escolha uma área para ver as situações que atendemos e as dúvidas mais comuns.</p>
+    </div>
+    <div class="areas">
+      <div class="tablist rv" role="tablist" aria-label="Áreas de atuação" aria-orientation="vertical"><button class="tab" role="tab" id="tab-trabalhista" aria-controls="pan-trabalhista" aria-selected="true" tabindex="0" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 21V3.5h9V21 M14 9.5h5V21 M3 21h18 M8 7.5h3 M8 11.5h3 M8 15.5h3"/></svg><span><span class="t">Trabalhista</span><small>Relações de trabalho, verbas e direitos</small></span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></button><button class="tab" role="tab" id="tab-civil" aria-controls="pan-civil" aria-selected="false" tabindex="-1" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 2.75h9.5L19 7.25v14H5z M14.5 2.75v4.5H19 M8.5 11.5h7 M8.5 15h7 M8.5 18.5h4"/></svg><span><span class="t">Civil</span><small>Contratos, dívidas, imóveis e indenizações</small></span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></button><button class="tab" role="tab" id="tab-familia" aria-controls="pan-familia" aria-selected="false" tabindex="-1" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M9 4.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5z M2.5 20a6.5 6.5 0 0 1 13 0 M16.5 6.75a2.75 2.75 0 1 1 0 5.5 M17 14.2a5.5 5.5 0 0 1 4.5 5.3"/></svg><span><span class="t">Família</span><small>Divórcio, guarda, pensão e sucessões</small></span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></button><button class="tab" role="tab" id="tab-consumidor" aria-controls="pan-consumidor" aria-selected="false" tabindex="-1" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 2.75l7.5 3v6c0 4.5-3 8-7.5 9.5-4.5-1.5-7.5-5-7.5-9.5v-6z M8.5 12l2.5 2.5 4.5-5"/></svg><span><span class="t">Consumidor</span><small>Cobranças indevidas, falhas e abusos</small></span><svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></button></div>
+      <div class="rv" style="--d:.12s"><div class="panel" role="tabpanel" id="pan-trabalhista" aria-labelledby="tab-trabalhista"><h3>Trabalhista</h3><p class="lead">Análise de situações que surgem da relação de trabalho, com explicação clara dos direitos envolvidos, dos prazos e dos caminhos possíveis.</p><div class="label">Situações que atendemos</div><ul class="chips"><li>Verbas rescisórias e acerto final</li><li>Horas extras, adicionais e intervalos</li><li>Reconhecimento de vínculo de emprego</li><li>Assédio moral e sexual no trabalho</li><li>Acidente de trabalho e doença ocupacional</li><li>Estabilidades, como gestante e acidentária</li><li>FGTS e seguro-desemprego</li><li>Acordos e rescisões negociadas</li></ul><div class="label">Perguntas frequentes</div><div class="acc"><div class="acc-item open"><h4><button class="acc-btn" type="button" aria-expanded="true" aria-controls="a-trabalhista-0" id="b-trabalhista-0"><span>Qual é o prazo para entrar com uma ação trabalhista?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-trabalhista-0" role="region" aria-labelledby="b-trabalhista-0"><div><p>Em regra, a ação pode ser proposta em até 2 anos após o fim do contrato de trabalho, e pode cobrar direitos dos últimos 5 anos contados da data do ajuizamento (Constituição Federal, art. 7º, XXIX).</p></div></div></div><div class="acc-item"><h4><button class="acc-btn" type="button" aria-expanded="false" aria-controls="a-trabalhista-1" id="b-trabalhista-1"><span>O que levar na primeira conversa?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-trabalhista-1" role="region" aria-labelledby="b-trabalhista-1"><div><p>Carteira de trabalho, contracheques, termo de rescisão, extratos do FGTS, contrato e mensagens ou e-mails sobre o trabalho. Mesmo que falte algum documento, vale conversar.</p></div></div></div></div><div class="panel-foot"><p>Prazos e requisitos variam conforme o caso. A análise individual é feita em conversa com um advogado.</p><a class="btn btn-light mag" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20sobre%20Trabalhista." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Falar sobre Trabalhista<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a></div></div><div class="panel" role="tabpanel" id="pan-civil" aria-labelledby="tab-civil" hidden><h3>Civil</h3><p class="lead">Contratos, responsabilidade civil, cobranças, posse e propriedade. Estudo do caso e estratégia para evitar o conflito ou resolvê-lo.</p><div class="label">Situações que atendemos</div><ul class="chips"><li>Elaboração e revisão de contratos</li><li>Cobrança e execução de dívidas</li><li>Indenização por danos materiais e morais</li><li>Locação, despejo e renovatória</li><li>Compra e venda de imóveis</li><li>Usucapião e regularização</li><li>Posse, propriedade e vizinhança</li><li>Acidentes de trânsito</li></ul><div class="label">Perguntas frequentes</div><div class="acc"><div class="acc-item open"><h4><button class="acc-btn" type="button" aria-expanded="true" aria-controls="a-civil-0" id="b-civil-0"><span>Vale a pena revisar um contrato antes de assinar?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-civil-0" role="region" aria-labelledby="b-civil-0"><div><p>Sim. A revisão prévia aponta cláusulas abusivas, riscos e obrigações que costumam passar despercebidas, e custa menos do que resolver o problema depois.</p></div></div></div><div class="acc-item"><h4><button class="acc-btn" type="button" aria-expanded="false" aria-controls="a-civil-1" id="b-civil-1"><span>Por quanto tempo posso cobrar uma dívida ou indenização?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-civil-1" role="region" aria-labelledby="b-civil-1"><div><p>Depende da natureza do direito. Por exemplo, a reparação civil prescreve em 3 anos (Código Civil, art. 206, § 3º, V). Por isso o prazo deve ser conferido caso a caso, o quanto antes.</p></div></div></div></div><div class="panel-foot"><p>Prazos e requisitos variam conforme o caso. A análise individual é feita em conversa com um advogado.</p><a class="btn btn-light mag" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20sobre%20Civil." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Falar sobre Civil<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a></div></div><div class="panel" role="tabpanel" id="pan-familia" aria-labelledby="tab-familia" hidden><h3>Família</h3><p class="lead">Questões familiares tratadas com discrição, escuta e atenção ao que está em jogo para cada pessoa envolvida.</p><div class="label">Situações que atendemos</div><ul class="chips"><li>Divórcio consensual e litigioso</li><li>União estável: reconhecimento e dissolução</li><li>Guarda e regime de convivência</li><li>Pensão alimentícia: fixação, revisão e execução</li><li>Partilha de bens</li><li>Inventário e partilha de herança</li><li>Reconhecimento de paternidade</li><li>Testamento e planejamento sucessório</li></ul><div class="label">Perguntas frequentes</div><div class="acc"><div class="acc-item open"><h4><button class="acc-btn" type="button" aria-expanded="true" aria-controls="a-familia-0" id="b-familia-0"><span>O divórcio pode ser feito em cartório?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-familia-0" role="region" aria-labelledby="b-familia-0"><div><p>Em regra, sim, quando há consenso entre o casal e não há filhos menores ou incapazes. Nos demais casos, o divórcio segue pela via judicial.</p></div></div></div><div class="acc-item"><h4><button class="acc-btn" type="button" aria-expanded="false" aria-controls="a-familia-1" id="b-familia-1"><span>A pensão alimentícia pode ser alterada?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-familia-1" role="region" aria-labelledby="b-familia-1"><div><p>Pode. O valor é revisto quando muda a necessidade de quem recebe ou a possibilidade de quem paga (Código Civil, art. 1.699).</p></div></div></div></div><div class="panel-foot"><p>Prazos e requisitos variam conforme o caso. A análise individual é feita em conversa com um advogado.</p><a class="btn btn-light mag" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20sobre%20Fam%C3%ADlia." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Falar sobre Família<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a></div></div><div class="panel" role="tabpanel" id="pan-consumidor" aria-labelledby="tab-consumidor" hidden><h3>Consumidor</h3><p class="lead">Defesa de quem consome produtos e serviços diante de práticas abusivas, falhas e cobranças indevidas, com base no Código de Defesa do Consumidor.</p><div class="label">Situações que atendemos</div><ul class="chips"><li>Negativação indevida do nome</li><li>Cobranças e tarifas abusivas</li><li>Vícios e defeitos em produtos</li><li>Falha na prestação de serviço</li><li>Planos de saúde: negativa e reajustes</li><li>Contratos bancários e financiamentos</li><li>Voos, viagens, telefonia e internet</li><li>Compras online e direito de arrependimento</li></ul><div class="label">Perguntas frequentes</div><div class="acc"><div class="acc-item open"><h4><button class="acc-btn" type="button" aria-expanded="true" aria-controls="a-consumidor-0" id="b-consumidor-0"><span>Qual é o prazo para reclamar de um defeito?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-consumidor-0" role="region" aria-labelledby="b-consumidor-0"><div><p>O Código de Defesa do Consumidor prevê 30 dias para produtos e serviços não duráveis e 90 dias para os duráveis, contados da entrega ou, no caso de vício oculto, de quando ele aparece (art. 26).</p></div></div></div><div class="acc-item"><h4><button class="acc-btn" type="button" aria-expanded="false" aria-controls="a-consumidor-1" id="b-consumidor-1"><span>Que documentos devo guardar?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h4><div class="acc-body" id="a-consumidor-1" role="region" aria-labelledby="b-consumidor-1"><div><p>Nota fiscal, contrato, comprovantes de pagamento, protocolos de atendimento, e-mails, mensagens e prints. Anote datas e nomes de quem atendeu.</p></div></div></div></div><div class="panel-foot"><p>Prazos e requisitos variam conforme o caso. A análise individual é feita em conversa com um advogado.</p><a class="btn btn-light mag" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20sobre%20Consumidor." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Falar sobre Consumidor<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec light" id="socios" aria-labelledby="t-soc">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow rv">Sócios</p>
+      <h2 class="h2 rv" id="t-soc" style="--d:.08s">Quem responde pelo <em>escritório</em>.</h2>
+    </div>
+    <div class="partners">
+      <div class="photo rv" id="photo">
+        <div class="photo-in"><img src="assets/socios.jpg" width="1280" height="713" alt="Alexandre Lacerda de Andrade, à esquerda, de terno azul, e Leonardo Garcez Guimarães Moreira da Silva, à direita, de terno cinza, em frente a uma estante de livros jurídicos." loading="lazy" decoding="async"></div>
+        <div class="dim dim-a"></div><div class="dim dim-b"></div>
+      </div>
+      <div class="who">
+        <article class="partner rv" tabindex="0" data-who="a" style="--d:.1s"><span class="oab">OAB/RJ 81.864</span><h3>Alexandre Lacerda de Andrade</h3><small>Sócio · na foto, à esquerda</small></article>
+        <article class="partner rv" tabindex="0" data-who="b" style="--d:.2s"><span class="oab">OAB/SP 239.701</span><h3>Leonardo Garcez Guimarães Moreira da Silva</h3><small>Sócio · na foto, à direita</small></article>
+      </div>
+    </div>
+    <p class="partners-note rv">Os dois sócios são inscritos na Ordem dos Advogados do Brasil, em seccionais diferentes, o que permite ao escritório atender nos estados do Rio de Janeiro e de São Paulo.</p>
+  </div>
+</section>
+
+<section class="sec white" id="atendimento" aria-labelledby="t-at">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow rv">Como atendemos</p>
+      <h2 class="h2 rv" id="t-at" style="--d:.08s">Do primeiro contato ao <em>acompanhamento</em>.</h2>
+      <p class="lead rv" style="--d:.16s">Um caminho simples, na ordem em que as coisas acontecem.</p>
+    </div>
+    <ol class="steps" id="steps">
+      <li class="step rv" style="--d:.05s"><span class="node">1</span><h3>Contato</h3><p>Você chama pelo WhatsApp, escreve por e-mail ou vai a uma das unidades e conta o que aconteceu.</p></li>
+      <li class="step rv" style="--d:.15s"><span class="node">2</span><h3>Análise</h3><p>Examinamos documentos, datas e provas para entender o caso e conferir os prazos aplicáveis.</p></li>
+      <li class="step rv" style="--d:.25s"><span class="node">3</span><h3>Estratégia</h3><p>Explicamos os caminhos possíveis, os riscos de cada um e o que esperar, sem prometer resultado.</p></li>
+      <li class="step rv" style="--d:.35s"><span class="node">4</span><h3>Acompanhamento</h3><p>Conduzimos o caso e mantemos você informado sobre cada andamento relevante.</p></li>
+    </ol>
+    <div class="bring rv">
+      <h3>Para a primeira conversa, separe o que tiver:</h3>
+      <ul>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 4.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5z M4.5 21a7.5 7.5 0 0 1 15 0"/></svg><span>Documento pessoal com foto e comprovante de residência</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3 6.75h7l2 2.5h9v11H3z"/></svg><span>Contratos, comprovantes, notificações e outros papéis do caso</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3 5.5h18v13H3z M3 5.5l9 7.5 9-7.5"/></svg><span>Mensagens, e-mails e protocolos de atendimento</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 5.5h17v15h-17z M3.5 10h17 M8 3v4.5 M16 3v4.5 M7.5 14h3 M13.5 14h3"/></svg><span>Uma lista com as datas dos fatos mais importantes</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec darker" id="unidades" aria-labelledby="t-un">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow rv">Unidades</p>
+      <h2 class="h2 rv" id="t-un" style="--d:.08s">Três endereços, <em>dois estados</em>.</h2>
+      <p class="lead rv" style="--d:.16s">Todos os telefones são WhatsApp. Escolha a unidade mais próxima de você.</p>
+    </div>
+    <div class="units"><article class="unit spot rv" style="--d:0.0s"><div class="unit-top"><div><span class="tag">Sede</span></div><span class="uf" aria-hidden="true">RJ</span></div><h3>Campos Elíseos</h3><address class="addr"><b>R. Albino de Almeida, 159, Sl 1</b><span>Campos Elíseos, Resende, RJ</span></address><p class="phone"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><span>(24) 98803-3310</span><small>WhatsApp</small></p><div class="unit-act"><a class="btn btn-light btn-sm" href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Chamar</a><a class="icon-btn" href="https://www.google.com/maps/search/?api=1&query=R.%20Albino%20de%20Almeida%2C%20159%2C%20Resende%20-%20RJ" target="_blank" rel="noopener" aria-label="Ver Campos Elíseos no mapa"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 21.5s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z M12 8.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5z"/></svg></a><button class="icon-btn" type="button" data-copy="R. Albino de Almeida, 159, Sl 1, Campos Elíseos, Resende, RJ" aria-label="Copiar endereço de Campos Elíseos"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div></article><article class="unit spot rv" style="--d:0.1s"><div class="unit-top"><div><span class="tag">Unidade</span></div><span class="uf" aria-hidden="true">RJ</span></div><h3>Mirante da Serra</h3><address class="addr"><b>Rua do Amor, 164, Sala 01</b><span>Mirante da Serra, Resende, RJ</span></address><p class="phone"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><span>(24) 98823-2093</span><small>WhatsApp</small></p><div class="unit-act"><a class="btn btn-light btn-sm" href="https://wa.me/5524988232093?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Chamar</a><a class="icon-btn" href="https://www.google.com/maps/search/?api=1&query=Rua%20do%20Amor%2C%20164%2C%20Resende%20-%20RJ" target="_blank" rel="noopener" aria-label="Ver Mirante da Serra no mapa"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 21.5s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z M12 8.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5z"/></svg></a><button class="icon-btn" type="button" data-copy="Rua do Amor, 164, Sala 01, Mirante da Serra, Resende, RJ" aria-label="Copiar endereço de Mirante da Serra"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div></article><article class="unit spot rv" style="--d:0.2s"><div class="unit-top"><div><span class="tag">Unidade</span></div><span class="uf" aria-hidden="true">SP</span></div><h3>Queluz</h3><address class="addr"><b>Rua Ciriano de Moraes Borges, 18</b><span>Centro, Queluz, SP</span></address><p class="phone"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><span>(24) 98803-2141</span><small>WhatsApp</small></p><div class="unit-act"><a class="btn btn-light btn-sm" href="https://wa.me/5524988032141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Chamar</a><a class="icon-btn" href="https://www.google.com/maps/search/?api=1&query=Rua%20Ciriano%20de%20Moraes%20Borges%2C%2018%2C%20Queluz%20-%20SP" target="_blank" rel="noopener" aria-label="Ver Queluz no mapa"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 21.5s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z M12 8.25a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5z"/></svg></a><button class="icon-btn" type="button" data-copy="Rua Ciriano de Moraes Borges, 18, Centro, Queluz, SP" aria-label="Copiar endereço de Queluz"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div></article></div>
+    <p class="units-note rv">Para confirmar horários de atendimento e agendar uma visita, chame a unidade pelo WhatsApp.</p>
+  </div>
+</section>
+
+<section class="sec light" id="duvidas" aria-labelledby="t-fq">
+  <div class="wrap faq">
+    <div class="faq-side">
+      <p class="eyebrow rv">Dúvidas gerais</p>
+      <h2 class="h2 rv" id="t-fq" style="--d:.08s">O que as pessoas costumam <em>perguntar</em>.</h2>
+      <p class="lead rv" style="--d:.16s">Não encontrou a sua? Escreva para a gente.</p>
+      <a class="btn btn-dark mag rv" style="--d:.24s" href="#contato">Enviar uma mensagem<svg class="arr" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M4 12h15 M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="acc rv" style="--d:.1s"><div class="acc-item open"><h3><button class="acc-btn" type="button" aria-expanded="true" aria-controls="g-0" id="gb-0"><span>Quais áreas o escritório atende?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-0" role="region" aria-labelledby="gb-0"><div><p>Direito do Trabalho, Civil, de Família e do Consumidor. Se o seu caso for de outra área, a conversa inicial ajuda a entender se podemos atuar ou se é melhor buscar outro especialista.</p></div></div></div><div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="g-1" id="gb-1"><span>Onde fica o atendimento?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-1" role="region" aria-labelledby="gb-1"><div><p>Em três unidades: a sede em Campos Elíseos e a unidade do Mirante da Serra, ambas em Resende (RJ), e a unidade do Centro de Queluz (SP).</p></div></div></div><div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="g-2" id="gb-2"><span>Posso começar a conversa pelo WhatsApp?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-2" role="region" aria-labelledby="gb-2"><div><p>Sim. Os três telefones do escritório são WhatsApp. Você pode chamar a unidade mais próxima, contar o caso de forma resumida e combinar como seguir.</p></div></div></div><div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="g-3" id="gb-3"><span>Como são combinados os honorários?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-3" role="region" aria-labelledby="gb-3"><div><p>Os honorários são tratados na primeira conversa e formalizados em contrato escrito, conforme o Código de Ética e Disciplina da OAB. Não há valores publicados neste site porque cada caso é diferente.</p></div></div></div><div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="g-4" id="gb-4"><span>O escritório garante o resultado do processo?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-4" role="region" aria-labelledby="gb-4"><div><p>Não. A advocacia é uma atividade de meio e a legislação da OAB proíbe a promessa de resultado. O que o escritório assume é o compromisso de analisar com rigor, explicar os riscos e conduzir o caso com diligência.</p></div></div></div><div class="acc-item"><h3><button class="acc-btn" type="button" aria-expanded="false" aria-controls="g-5" id="gb-5"><span>As informações que eu enviar ficam protegidas?</span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 5v14 M5 12h14"/></svg></button></h3><div class="acc-body" id="g-5" role="region" aria-labelledby="gb-5"><div><p>O sigilo profissional protege o que é dito ao advogado. Por segurança, evite enviar documentos e dados sensíveis pelo formulário do site e combine com o escritório o melhor canal.</p></div></div></div></div>
+  </div>
+</section>
+
+<section class="sec dark" id="contato" aria-labelledby="t-ct">
+  <div class="wrap contact">
+    <div class="contact-copy">
+      <p class="eyebrow rv">Contato</p>
+      <h2 class="h2 rv" id="t-ct" style="--d:.08s">Conte o seu caso. Respondemos pelo canal que você <em>preferir</em>.</h2>
+      <div class="ways rv" style="--d:.16s">
+        <div class="way"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3 5.5h18v13H3z M3 5.5l9 7.5 9-7.5"/></svg><div><span class="k">E-mail</span><span class="v"><a href="mailto:contato@lacerdaegarcez.com.br">contato@lacerdaegarcez.com.br</a></span></div><button class="icon-btn copy" type="button" data-copy="contato@lacerdaegarcez.com.br" aria-label="Copiar e-mail"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div>
+        <div class="way"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><div><span class="k">WhatsApp · Campos Elíseos</span><span class="v"><a href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">(24) 98803-3310</a></span></div><button class="icon-btn copy" type="button" data-copy="(24) 98803-3310" aria-label="Copiar telefone de Campos Elíseos"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div><div class="way"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><div><span class="k">WhatsApp · Mirante da Serra</span><span class="v"><a href="https://wa.me/5524988232093?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">(24) 98823-2093</a></span></div><button class="icon-btn copy" type="button" data-copy="(24) 98823-2093" aria-label="Copiar telefone de Mirante da Serra"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div><div class="way"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5 3.5h4l1.5 4.5-2.5 1.5a11 11 0 0 0 6.5 6.5l1.5-2.5 4.5 1.5v4a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg><div><span class="k">WhatsApp · Queluz</span><span class="v"><a href="https://wa.me/5524988032141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">(24) 98803-2141</a></span></div><button class="icon-btn copy" type="button" data-copy="(24) 98803-2141" aria-label="Copiar telefone de Queluz"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg></button></div>
+        <div class="way"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M12 4.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5z M4.5 21a7.5 7.5 0 0 1 15 0"/></svg><div><span class="k">Instagram</span><span class="v">Em breve<span class="pill">Perfil em criação</span></span></div></div>
+      </div>
+    </div>
+    <form class="form rv" id="form" style="--d:.15s" novalidate>
+      <h3>Mensagem rápida</h3>
+      <p class="sub">Preencha e envie pelo WhatsApp da unidade escolhida.</p>
+      <div class="f2">
+        <div class="fld"><label for="f-nome">Seu nome</label><input id="f-nome" name="nome" type="text" autocomplete="name" required></div>
+        <div class="fld"><label for="f-area">Área</label><select id="f-area" name="area"><option value="">Ainda não sei</option><option>Trabalhista</option><option>Civil</option><option>Família</option><option>Consumidor</option></select></div>
+      </div>
+      <div class="fld"><label for="f-unit">Unidade</label><select id="f-unit" name="unidade"><option value="5524988033310">Campos Elíseos (Resende, RJ)</option><option value="5524988232093">Mirante da Serra (Resende, RJ)</option><option value="5524988032141">Queluz (Queluz, SP)</option></select></div>
+      <div class="fld"><label for="f-msg">Conte, em poucas linhas, o que aconteceu</label><textarea id="f-msg" name="mensagem" required></textarea></div>
+      <p class="err" id="f-err" role="alert" hidden>Preencha seu nome e uma breve descrição para continuar.</p>
+      <p class="privacy"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M5.5 10.5h13v10.5h-13z M8.5 10.5V7a3.5 3.5 0 0 1 7 0v3.5 M12 14.5v3"/></svg><span>Não envie documentos nem dados sensíveis neste campo. Eles podem ser combinados depois, em conversa direta com o escritório.</span></p>
+      <div class="form-act">
+        <a class="btn btn-dark" id="waSend" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg>Enviar pelo WhatsApp</a>
+        <button class="btn btn-ghost" id="copyMsg" type="button"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M8.5 8.5h11v12h-11z M4.5 15.5v-12h11"/></svg>Copiar mensagem</button>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fio" aria-hidden="true"></div>
+    <div class="foot-grid">
+      <div class="foot-about"><a class="logo " href="#inicio" aria-label="Lacerda & Garcez, Sociedade de Advogados. Ir ao início"><svg class="sym" viewBox="0 0 100 100" aria-hidden="true" focusable="false" fill="none" stroke-width="6" stroke-linejoin="miter"><path class="arc" pathLength="1" d="M88.81 59.68A40 40 0 1 1 80.64 24.29"/><path class="ell" pathLength="1" d="M40 30V62H90"/></svg><span class="logo-rule"></span><span><span class="logo-name">Lacerda <i>&amp;</i> Garcez</span><span class="logo-tag">Sociedade de Advogados</span></span></a><p>Advocacia Trabalhista, Civil, de Família e do Consumidor em Resende (RJ) e Queluz (SP).</p></div>
+      <div><h4>Navegar</h4><ul><li><a href="#escritorio">Escritório</a></li><li><a href="#areas">Áreas de atuação</a></li><li><a href="#socios">Sócios</a></li><li><a href="#atendimento">Atendimento</a></li><li><a href="#duvidas">Dúvidas</a></li></ul></div>
+      <div><h4>Áreas</h4><ul><li><a href="#areas">Trabalhista</a></li><li><a href="#areas">Civil</a></li><li><a href="#areas">Família</a></li><li><a href="#areas">Consumidor</a></li></ul></div>
+      <div><h4>Unidades</h4><ul><li><a href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">Campos Elíseos<br><span style="font-size:.9rem">(24) 98803-3310</span></a></li><li><a href="https://wa.me/5524988232093?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">Mirante da Serra<br><span style="font-size:.9rem">(24) 98823-2093</span></a></li><li><a href="https://wa.me/5524988032141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener">Queluz<br><span style="font-size:.9rem">(24) 98803-2141</span></a></li><li><a href="mailto:contato@lacerdaegarcez.com.br">contato@lacerdaegarcez.com.br</a></li></ul></div>
+    </div>
+    <div class="legal">
+      <p>Este site tem caráter exclusivamente informativo e não constitui oferta de serviços, aconselhamento jurídico nem promessa de resultado, conforme o Código de Ética e Disciplina da OAB e o Provimento 205/2021 do Conselho Federal. Os conteúdos gerais sobre prazos e direitos não substituem a análise de um advogado.</p>
+      <div class="legal-row"><span>© <span id="year">2026</span> Lacerda &amp; Garcez · Sociedade de Advogados</span><a href="#inicio">Voltar ao topo</a></div>
+      <p class="credit">Site desenvolvido pela <span class="by"><span>Agência RedBox</span><img src="assets/redbox.png" width="357" height="152" alt="RedBox"></span></p>
+    </div>
+  </div>
+</footer>
+
+<div class="fab-wrap">
+  <div class="fab-pop" id="fabPop" hidden><p>Chamar no WhatsApp</p><a href="https://wa.me/5524988033310?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><b>Campos Elíseos</b><span>(24) 98803-3310 · Resende, RJ</span></a><a href="https://wa.me/5524988232093?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><b>Mirante da Serra</b><span>(24) 98823-2093 · Resende, RJ</span></a><a href="https://wa.me/5524988032141?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Lacerda%20%26%20Garcez%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" rel="noopener"><b>Queluz</b><span>(24) 98803-2141 · Queluz, SP</span></a></div>
+  <button class="fab" id="fab" type="button" aria-expanded="false" aria-controls="fabPop" aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter" stroke-linecap="butt"><path d="M3.5 4.5h17v12h-8l-5 4v-4h-4z M8 9h8 M8 12.5h5"/></svg></button>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(()=>{
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const root=document.documentElement;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+if(!reduce)root.classList.add('anim');
+const clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
+
+/* revelação ao rolar */
+const rv=$$('.rv');
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  rv.forEach(el=>io.observe(el));
+}else rv.forEach(el=>el.classList.add('in'));
+setTimeout(()=>rv.forEach(el=>el.classList.add('in')),9000);
+
+/* contadores */
+$$('[data-count]').forEach(el=>{
+  const n=+el.dataset.count;if(reduce)return;
+  el.textContent='0';
+  const t0=performance.now()+900,dur=1500;
+  const tick=t=>{const p=clamp((t-t0)/dur);el.textContent=Math.round(n*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(tick)};
+  requestAnimationFrame(tick);
+});
+
+/* rolagem: cabeçalho, progresso, símbolo, linha do tempo */
+const hdr=$('#hdr'),mp=$('#markPanel'),mArc=$('#mArc'),mEll=$('#mEll'),steps=$('#steps'),heroSym=$('#heroSym'),fabWrap=$('.fab-wrap');
+let ticking=false;
+function onScroll(){
+  ticking=false;
+  const y=scrollY,h=root.scrollHeight-innerHeight;
+  hdr.classList.toggle('solid',y>24);
+  hdr.style.setProperty('--prog',h>0?y/h:0);
+  if(!reduce){
+    if(mp){
+      const r=mp.getBoundingClientRect(),p=clamp((innerHeight*.92-r.top)/(innerHeight*.7));
+      mArc.style.strokeDashoffset=1.03-clamp(p*1.5)*1.03;
+      mEll.style.strokeDashoffset=1.03-clamp((p-.45)*1.9)*1.03;
+    }
+    if(steps){
+      const r=steps.getBoundingClientRect();
+      steps.style.setProperty('--tl',clamp((innerHeight*.75-r.top)/Math.max(r.height,1)));
+    }
+    if(heroSym&&y<innerHeight)heroSym.style.setProperty('--py',(y*.1)+'px');
+  }
+}
+addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+addEventListener('resize',onScroll);
+onScroll();
+
+/* parallax do símbolo no hero */
+const hero=$('.hero');
+if(hero&&heroSym&&fine&&!reduce){
+  hero.addEventListener('pointermove',e=>{
+    const r=hero.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+    heroSym.style.transform=`translate3d(${x*-26}px,calc(${y*-20}px + var(--py,0px)),0)`;
+  });
+  hero.addEventListener('pointerleave',()=>{heroSym.style.transform=''});
+}else if(heroSym&&!reduce){
+  addEventListener('scroll',()=>{heroSym.style.transform=`translate3d(0,var(--py,0px),0)`},{passive:true});
+}
+
+/* navegação ativa + menu móvel */
+const links=$$('.nav a[href^="#"]');
+const secs=links.map(a=>$(a.getAttribute('href'))).filter(Boolean);
+if('IntersectionObserver' in window){
+  const so=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting)links.forEach(a=>a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id))
+  }),{rootMargin:'-45% 0px -50% 0px'});
+  secs.forEach(s=>so.observe(s));
+}
+const burger=$('#burger');
+function menu(open){
+  root.classList.toggle('menu-open',open);
+  burger.setAttribute('aria-expanded',open);
+  burger.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');
+  $('#mnav').inert=!open;
+  root.style.overflow=open?'hidden':'';
+}
+$('#mnav').inert=true;
+burger.addEventListener('click',()=>menu(!root.classList.contains('menu-open')));
+$$('#mnav a').forEach(a=>a.addEventListener('click',()=>menu(false)));
+addEventListener('resize',()=>{if(innerWidth>1100)menu(false)});
+
+/* abas das áreas */
+const tabs=$$('[role=tab]'),panels=$$('[role=tabpanel]');
+function pick(i,focus){
+  tabs.forEach((t,j)=>{t.setAttribute('aria-selected',i===j);t.tabIndex=i===j?0:-1});
+  panels.forEach((p,j)=>{p.hidden=i!==j});
+  if(focus)tabs[i].focus();
+}
+tabs.forEach((t,i)=>{
+  t.addEventListener('click',()=>pick(i));
+  t.addEventListener('keydown',e=>{
+    const n=tabs.length;let k=null;
+    if(e.key==='ArrowDown'||e.key==='ArrowRight')k=(i+1)%n;
+    else if(e.key==='ArrowUp'||e.key==='ArrowLeft')k=(i-1+n)%n;
+    else if(e.key==='Home')k=0;else if(e.key==='End')k=n-1;
+    if(k!==null){e.preventDefault();pick(k,true)}
+  });
+});
+
+/* acordeão */
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.acc-btn');if(!b)return;
+  const open=b.getAttribute('aria-expanded')==='true';
+  b.setAttribute('aria-expanded',!open);
+  b.closest('.acc-item').classList.toggle('open',!open);
+});
+
+/* sócios: destaque na foto */
+const photo=$('#photo');
+$$('[data-who]').forEach(c=>{
+  const on=()=>{photo.dataset.focus=c.dataset.who;c.classList.add('on')};
+  const off=()=>{delete photo.dataset.focus;c.classList.remove('on')};
+  c.addEventListener('pointerenter',on);c.addEventListener('pointerleave',off);
+  c.addEventListener('focus',on);c.addEventListener('blur',off);
+});
+
+/* brilho que segue o cursor e botões magnéticos */
+$$('.spot').forEach(el=>el.addEventListener('pointermove',e=>{
+  const r=el.getBoundingClientRect();
+  el.style.setProperty('--mx',(e.clientX-r.left)+'px');
+  el.style.setProperty('--my',(e.clientY-r.top)+'px');
+}));
+if(fine&&!reduce){
+  $$('.mag').forEach(el=>{
+    el.addEventListener('pointermove',e=>{
+      const r=el.getBoundingClientRect();
+      el.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.18}px,${(e.clientY-r.top-r.height/2)*.28}px)`;
+    });
+    el.addEventListener('pointerleave',()=>{el.style.transform=''});
+  });
+}
+
+/* copiar */
+const toast=$('#toast');let tt;
+function say(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('show'),2200)}
+function copy(text){
+  const fallback=()=>{
+    const ta=document.createElement('textarea');ta.value=text;ta.style.cssText='position:fixed;opacity:0';
+    document.body.appendChild(ta);ta.select();
+    let ok=false;try{ok=document.execCommand('copy')}catch(_){}
+    ta.remove();say(ok?'Copiado.':'Selecione e copie: '+text);
+  };
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(text).then(()=>say('Copiado.'),fallback);
+  else fallback();
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-copy]');if(b){e.preventDefault();copy(b.dataset.copy)}
+});
+
+/* botão flutuante */
+const fab=$('#fab'),pop=$('#fabPop');
+function fabState(o){fab.setAttribute('aria-expanded',o);pop.hidden=!o}
+fab.addEventListener('click',()=>fabState(fab.getAttribute('aria-expanded')!=='true'));
+document.addEventListener('click',e=>{if(!fabWrap.contains(e.target))fabState(false)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){fabState(false);if(root.classList.contains('menu-open'))menu(false)}});
+
+/* formulário: monta a mensagem e aponta o link do WhatsApp */
+const f=$('#form');
+if(f){
+  const nome=$('#f-nome'),area=$('#f-area'),unit=$('#f-unit'),msg=$('#f-msg'),wa=$('#waSend'),err=$('#f-err'),cp=$('#copyMsg');
+  const text=()=>{
+    const n=nome.value.trim(),a=area.value,m=msg.value.trim();
+    let t='Olá! Vim pelo site da Lacerda & Garcez.';
+    if(n)t+=' Meu nome é '+n+'.';
+    if(a)t+=' Gostaria de falar sobre '+a+'.';
+    if(m)t+='\n\n'+m;
+    return t;
+  };
+  const sync=()=>{wa.href='https://wa.me/'+unit.value+'?text='+encodeURIComponent(text())};
+  const valid=()=>{
+    const bad=[nome,msg].filter(x=>!x.value.trim());
+    [nome,msg].forEach(x=>x.setAttribute('aria-invalid',!x.value.trim()));
+    err.hidden=bad.length===0;
+    if(bad.length)bad[0].focus();
+    return bad.length===0;
+  };
+  f.addEventListener('input',()=>{sync();if(!err.hidden&&nome.value.trim()&&msg.value.trim()){err.hidden=true;nome.removeAttribute('aria-invalid');msg.removeAttribute('aria-invalid')}});
+  wa.addEventListener('click',e=>{if(!valid())e.preventDefault();else sync()});
+  f.addEventListener('submit',e=>{e.preventDefault();if(valid()){sync();wa.click()}});
+  cp.addEventListener('click',()=>{if(valid())copy(text())});
+  sync();
+}
+$('#year').textContent=new Date().getFullYear();
+})();
+
+</script>
+</body>
+</html>
